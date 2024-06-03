@@ -12,7 +12,7 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.31"
-polars = {version = "0.38.3", features = ["lazy"]}
+polars = {version = "0.40.0", features = ["lazy"]}
 rust_xlsxwriter = {version = "0.64.1", features = ["chrono", "polars"]}
 
 
